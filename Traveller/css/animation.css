@@ -1,0 +1,46 @@
+.view-pop{
+    animation: view-pop-animation;
+    animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1;
+    
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation: view-pop-animation 1s ease;
+}
+
+@keyframes view-pop-animation{
+    /*from,to{
+        width: 200px;
+        height: 200px;
+    }
+    
+    50%{
+        width: 500px;
+        height: 500px;
+    }*/
+    from{
+        top: 150px;
+    }
+    to{
+        top: 500px;
+    }
+}
+
+@-webkit-keyframes view-pop-animation{
+   /* from,to{
+        width: 200px;
+        height: 200px;
+    }
+    
+    50%{
+        width: 500px;
+        height: 500px;
+    }
+    */
+    from{
+        top: 150px;
+    }
+    to{
+        top: 500px;
+    }
+}
